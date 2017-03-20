@@ -1,0 +1,67 @@
+html,
+body{
+  height:100%;
+  font-size: 16px;
+  background: url("../img/pattern.jpg") center center;
+}
+
+#cover{
+  height:100% auto;
+  background: url("../img/CoffeeandLaptop.jpg") center;
+  background-size:cover;
+  color: white;
+  height: 740px;
+}
+
+/*Button*/
+.btn-lg{
+  background-color: transparent;
+  border-radius: 5px;
+  color: white;
+}
+.fa-arrow-down{
+  margin-top: 2rem;
+  font-size: 2.5rem;
+  color: white;
+  transition: 0.3s;
+}
+.fa-arrow-down:hover{
+  color:#0275d8;
+  transition: 0.3s;
+}
+
+
+/*navBAR*/
+#main-nav li a{
+  border-bottom: 1px solid transparent
+}
+#main-nav li a:hover{
+  border-bottom: 1px solid white;
+  transition: 0.5s;
+}
+
+
+/*Menu*/
+.section-menu{
+  text-align: center;
+}
+
+
+/*Section Parallax SPill*/
+#section-parallax{
+  padding: 1rem;
+  text-align: center;
+  background: url(../img/spilledcoffeebeans.jpg) center repeat fixed;
+  padding-left: 140px 0;
+  background-size: cover;
+  color: white;
+}
+/*Section Parallax Beans*/
+#section-parallax-two{
+  padding: 5rem;
+  text-align: center;
+  background: url(../img/coffeebeans.jpg) center repeat fixed;
+  padding-left: 140px 0;
+  background-size: cover;
+  color: white;
+}
